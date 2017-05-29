@@ -69,8 +69,8 @@ public class LanguageBundle_es extends ListResourceBundle {
                     + Const.COMMAND_PREFIX + Const.COMMAND + " mixer channel AgueMort #live-streams {Overwatch|World of "
                     + "Warcraft} (agrega un canal para ser anunciado en un canal específico y filtro de juego)\n\t"
                     + Const.COMMAND_PREFIX + Const.COMMAND + " mixer team outpost #outpost-streamers (agrega un equipo con un anuncio de canal específico)\n\n"},
-            {"botLangFail", "Sucedió un error y mi idio sigue siendo el mismo."},
-            {"botLangHelp", "# BOTLANG\n* Utilizado para cambiar el idio de sus respuestas.\n\n## USAGE: "
+            {"botLangFail", "Sucedió un error y mi idioma sigue siendo el mismo."},
+            {"botLangHelp", "# BOTLANG\n* Utilizado para cambiar el idioma de sus respuestas.\n\n## USAGE: "
                     + Const.COMMAND_PREFIX
                     + Const.COMMAND
                     + " botlang language"
