@@ -45,21 +45,21 @@ public class LanguageBundle_es extends ListResourceBundle {
                     + Const.COMMAND_PREFIX
                     + Const.COMMAND
                     + " announce <content>\n\tEste comando solo puede ser usado por desarrolladores."},
-            {"mixerChannelNotFound", "\n# Channel(s) not found on Mixer: %s."},
-            {"mixerHelp", "# MIXER\n* Add and remove things that are Mixer.com related.\n"
-                    + "* Notes:\n\t"
-                    + "To add game filters and title filters, you MUST include the brackets.\n\t"
-                    + "Do NOT use the full Mixer URL. It will not work!! Use only the channel name (www.mixer.com/channelName)\n\t"
-                    + "You may add multiple channels, teams, game and title filters by using the pipe character | between them.\n\t"
-                    + "The only required options are: channelName/teamName\n\u200B\n"
-                    + "## Mixer Channels\n"
-                    + "Note: Adding an announcement channel, game and title filters are optional.\n"
-                    + "* Format: " + Const.COMMAND_PREFIX + Const.COMMAND + " mixer channel channelName #announcementChannel {gameFilters} [titleFilters]\n\n"
-                    + "## Mixer Teams (Announce ALL live streams in the team)\n"
-                    + "* Format: " + Const.COMMAND_PREFIX + Const.COMMAND + " mixer team teamName #announcementChannel\n\n"
+            {"mixerChannelNotFound", "\n# Canal(es) no encontrado en Mixer: %s."},
+            {"mixerHelp", "# MIXER\n* Agrega y remueve cosas que son relacionadas a Mixer.com\n"
+                    + "* Notas:\n\t"
+                    + "Para agregar filtros de juegos y titulos, usted DEBE incluir corchetes.\n\t"
+                    + "NO utilice el url completo de Mixer. Esto no funcionará!! Solamente utilice el nombre del canal (www.mixer.com/Nombrecanal)\n\t"
+                    + "Puedes agregar multiples canales, equipos, juegos y filtros de titulos utilizando una barra vertical | entre ellos.\n\t"
+                    + "Las unicas opciones requeridas son: NombreCanal/NombreEquipo\n\u200B\n"
+                    + "## Canales de Mixer\n"
+                    + "Nota: Al agregar un canal de anuncio, juegos y filtro de titulos son opcional.\n"
+                    + "* Formato: " + Const.COMMAND_PREFIX + Const.COMMAND + " mixer channel Nombrecanal #announcementChannel {gameFilters} [titleFilters]\n\n"
+                    + "## Equipos de Mixer (Anuncia TODAS las transmiciones en vivo del equipo)\n"
+                    + "* Formato: " + Const.COMMAND_PREFIX + Const.COMMAND + " mixer team NombreEquipo #announcementChannel\n\n"
                     + "## Mixer Game Filters (Global)\n"
-                    + "* NOTE: This affects all stream announcements for Mixer\n"
-                    + "* Format: " + Const.COMMAND_PREFIX + Const.COMMAND + " mixer gfilter {gameName|gameName} #announcementChannel\n\n"
+                    + "* NOTA: Esto afecta todos los anunciones de transmiciones en vivo para Mixer\n"
+                    + "* Formato: " + Const.COMMAND_PREFIX + Const.COMMAND + " mixer gfilter {NombreJuego|Nombrejuego} #announcementChannel\n\n"
                     + "## Mixer Title Filters (Global)\n"
                     + "* NOTE: This affects all stream announcements for Mixer\n"
                     + "* Format: " + Const.COMMAND_PREFIX + Const.COMMAND + " mixer tfilter [word|different words|more words] #announcementChannel\n\n"
@@ -67,10 +67,10 @@ public class LanguageBundle_es extends ListResourceBundle {
                     + "* Format: " + Const.COMMAND_PREFIX + Const.COMMAND + " mixer stats\n\n"
                     + "* Examples:\n\t"
                     + Const.COMMAND_PREFIX + Const.COMMAND + " mixer channel AgueMort #live-streams {Overwatch|World of "
-                    + "Warcraft} (adds a channel to announce in a certain channel and game filters)\n\t"
-                    + Const.COMMAND_PREFIX + Const.COMMAND + " mixer team outpost #outpost-streamers (adds a team with a specific announcement channel)\n\n"},
-            {"botLangFail", "Something went wrong and my language is still the same."},
-            {"botLangHelp", "# BOTLANG\n* Used to change the language of my responses.\n\n## USAGE: "
+                    + "Warcraft} (agrega un canal para ser anunciado en un canal específico y filtro de juego)\n\t"
+                    + Const.COMMAND_PREFIX + Const.COMMAND + " mixer team outpost #outpost-streamers (agrega un equipo con un anuncio de canal específico)\n\n"},
+            {"botLangFail", "Sucedió un error y mi idio sigue siendo el mismo."},
+            {"botLangHelp", "# BOTLANG\n* Utilizado para cambiar el idio de sus respuestas.\n\n## USAGE: "
                     + Const.COMMAND_PREFIX
                     + Const.COMMAND
                     + " botlang language"
